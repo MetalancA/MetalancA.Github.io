@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Alan's About</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+
+
+
+<h1 style="text-align:center">Welcome to Alan's About page!</h1>
+
+<body>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+
+      
+
+    <h2 align="right">Choose your theme here!</h2>
+    <p align="right">
+        <input type="button" id="red" value="Spicy Themed"</button>
+        <br>
+        <br>
+        <input type="button" id="green" value="Light Forest Vibes"</button>
+        <br>
+        <br>
+        <input type="button" id="blue" value="Powder Blue"</button>
+        <br>
+
+    </p>
+
+
+
+
+
+    <script> //Some Javascript. Yeet!
+
+        let body = document.querySelector('body');
+        document.querySelector('#red').onclick = function() {
+            body.style.backgroundColor = 'indianred';
+        }
+        document.querySelector('#green').onclick = function() {
+            body.style.backgroundColor = 'darkseagreen';
+        }
+        document.querySelector('#blue').onclick = function() {
+            body.style.backgroundColor = 'powderblue';
+        }
+    </script>
+
+<br>
+
+        <h2>About me!</h2>
+        <p>My name is Alan, and this is my website. I created it. It is okay.</p>
+
+
+<br>
+<br>
+<br>
+
+
+
+</body>
+
+
+
+</html>
