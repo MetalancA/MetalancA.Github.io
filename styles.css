@@ -1,0 +1,82 @@
+body {
+    background-color: powderblue;
+  }
+  
+  h1 {
+    color: black;
+    margin-left: 20px;
+  }
+
+  #red {
+    background-color: white; 
+    color: black; 
+    border: 2px solid grey;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  #red:hover {
+    background-color: red;
+    color: black;
+  }
+
+  #green {
+    background-color: white; 
+    color: black; 
+    border: 2px solid grey;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  #green:hover {
+    background-color: green;
+    color: black;
+  }
+
+  #blue {
+    background-color: white; 
+    color: black; 
+    border: 2px solid grey;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  #blue:hover {
+    background-color: blue;
+    color: black;
+  }
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+IMG.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
